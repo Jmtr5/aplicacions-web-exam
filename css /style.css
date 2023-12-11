@@ -1,13 +1,17 @@
-.section.continer-fluid.{
-    padding: 0%;
+body{
+    height: 90vw;
+    height: 85%;
 }
 
+header{
+    height: 25%;
+}
 
 nav {
-    
+    width: 100%;
     font-family: 'Roboto', sans-serif;
     background-color: #03045e;
-    padding-left: 20%;
+    padding-left: 25%;
   }
 
   nav ul {
@@ -37,6 +41,80 @@ nav ul li a {
     color: #fff;
   }
 
+img{
+    margin: 0%;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    padding-left: 10px;
+}
+
 .background1{
-    background: url('/img/moon.jpg');
+    background: url(/img/moon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home_rectangle{
+    margin-top: 20%;
+    margin-left: 25%;
+    justify-content: center;
+    padding: 1px;
+    background-color: #00b4d8;
+    opacity: 0.7;
+    width: 40%;
+    height: 100%;
+    border: 5px solid #03045e;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+footer{
+    margin-top: 20%;
+    height: 100%;
+    background-color: #03045e;
+    color: #fff;
+    text-align: center;
+}
+
+#moon{
+    font-weight: 600;
+    color: #000;
+}
+
+#button_home{
+    font-weight: 600;
+    border: 0;
+    margin-bottom: 1%;
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #03045e;
+    color: #fff;
+}
+
+.reserva_rectangle{
+    margin-top: 20%;
+    margin-left: 5%;
+    justify-content: center;
+    padding: 1px;
+    background-color: #00b4d8;
+    opacity: 0.7;
+    width: 40%;
+    height: 100%;
+    border: 5px solid #03045e;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.reserva_button{
+    border: 3px solid #03045e;
+    width: 30%;
+    border-radius: 20px;
+    background-color: #00b4d8;
+}
+
+form.reserva{
+    border-radius: 10px;
 }
