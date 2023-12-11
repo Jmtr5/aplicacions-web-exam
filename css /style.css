@@ -50,7 +50,7 @@ img{
 }
 
 .background1{
-    background: url(/img/moon.jpg);
+    background: url(../img/moon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
